@@ -7,6 +7,8 @@ package com.rohitkatiyar.dataprocessing;
  * @author Rohit Katiyar
  *
  */
+
+// Class to hold the JSON object address inside account_information
 public class Address {
 	
 	private String streetNumber, streetName, unitNumber, city, state, zipCode;

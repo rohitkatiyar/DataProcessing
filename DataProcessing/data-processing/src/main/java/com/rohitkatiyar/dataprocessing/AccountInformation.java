@@ -7,6 +7,8 @@ package com.rohitkatiyar.dataprocessing;
  * @author Rohit Katiyar
  *
  */
+
+// Class to hold the JSON object account_information
 public class AccountInformation {
 	
 	private String firstName, lastName, dateOfBirth, emailAddress;

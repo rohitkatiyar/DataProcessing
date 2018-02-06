@@ -4,6 +4,7 @@
  */
 package com.rohitkatiyar.dataprocessing;
 
+// Account class to hold the main Account JSON object
 public class Account {
 	
 	private int accountId;

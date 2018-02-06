@@ -25,6 +25,8 @@ public class DataProcessing {
 		
 		Account accountOb = null;
 		try {
+			
+			// populate the account object
 			accountOb = new Account();
 			AccountInformation accountInf = new AccountInformation();
 			Address addressOb = new Address();
