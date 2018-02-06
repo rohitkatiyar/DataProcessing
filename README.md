@@ -17,4 +17,9 @@ Like this my solution is able to handle the malformed and corrupt data.
 Answer: Yes my solution is optimized for query latency or throughput. To specifically test the throughput I have written a unit test "DataProcessingUnitTest3" which send 1000 modified JSON structures to the system for processing. The system is able to process all those 1000 JSON structures in 17.759 secods i.e approx 56 queries per second, which is good.
 
 3. What would you do differently if the client doesn’t send the account ID?
+
+Answer: If the client doesn't send the account ID, I will try to match the records with the combination of first name, last name, the address and will try to give it a unique ID.
+
 4. If the view gets very large (can no longer fit into memory), how can we modify it to ensure we’re still able to look up examples?
+
+Answer: We can split the view into multiple parts and will load it into memory part by part, like this we will be able to look up examples.
